@@ -26,9 +26,12 @@ This project focuses on analyzing survey responses and predicting mental health 
 
 ### Clone the Repository
 
-  
-   git clone <your-repository-url>
+1. **Build the Docker Image**:
+
+   ```bash
+   git clone https://github.com/varunvemuri-143/MIND-MAP.git .
    cd project_mindmap
+   
 
 
 ### Running the Application with Docker
