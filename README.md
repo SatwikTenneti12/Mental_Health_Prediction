@@ -37,3 +37,34 @@ cd project_mindmap
    ```bash
    docker build -t gradio-survey-app .
 
+### Accessing the Dataset and Models
+
+- **Dataset**:
+  - Place `data.csv` in the project directory for training.
+  - `survey_results.csv` will store the survey responses from users.
+- **Models**:
+  - Pre-trained models for Depression, Stress, and Anxiety (`random_forest_Depression.pkl`, `random_forest_stress.pkl`, `random_forest_anxiety.pkl`) must be placed in the project directory.
+  - Download models from the provided Google Drive link.
+
+---
+
+## Training the Models
+
+1. Open `Train.ipynb` in a Jupyter Notebook or any Python IDE.
+2. Train the models using the provided `data.csv`.
+3. Save the trained models in `.pkl` format.
+
+---
+
+## Application Functionality
+
+- **Survey Questions**: Collects user responses for DASS, TIPI, and VCL questions.
+- **Prediction**: Uses pre-trained machine learning models to predict:
+  - Depression level
+  - Stress level
+  - Anxiety level
+- **Validation**: Ensures all required responses are provided and checks for invalid inputs.
+
+---
+
+
