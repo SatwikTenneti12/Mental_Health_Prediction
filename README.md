@@ -21,12 +21,20 @@ This project focuses on analyzing survey responses and predicting mental health 
 2. Access to the pre-trained models:
    - Download the models from [Google Drive](https://drive.google.com/drive/folders/1SMlBIwb49elOLbpBr1LaJ9UlTS9NGrjA?usp=drive_link).
    - Place the models in the same directory as `test.py`.
+     
+## Running the Gradio Application
+
+To run the `test.py` file and launch the Gradio interface for the survey application, use the following command:
+
+1. **Gradio lauch**:
+    ```bash
+    python test.py
 
 ## Setting Up the Project
 
 ### Clone the Repository
 
-1. **Build the Docker Image**:
+1. **Cloning**:
 
    ```bash
    git clone https://github.com/varunvemuri-143/MIND-MAP.git .
