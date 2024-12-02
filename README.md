@@ -26,9 +26,10 @@ This project focuses on analyzing survey responses and predicting mental health 
 
 ### Clone the Repository
 
+  
+   git clone <your-repository-url>
+   cd project_mindmap
 
-git clone <your-repository-url>
-cd project_mindmap
 
 ### Running the Application with Docker
 
