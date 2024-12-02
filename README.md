@@ -19,7 +19,7 @@ This project focuses on analyzing survey responses and predicting mental health 
 1. Docker installed on your system.
    - [Install Docker](https://docs.docker.com/get-docker/).
 2. Access to the pre-trained models:
-   - Download the models from [Google Drive]([https://drive.google.com/drive/folders/1SMlBIwb49elOLbpBr1LaJ9UlTS9NGrjA?usp=drive_link]).
+   - Download the models from [Google Drive](https://drive.google.com/drive/folders/1SMlBIwb49elOLbpBr1LaJ9UlTS9NGrjA?usp=drive_link).
    - Place the models in the same directory as `test.py`.
 
 ## Setting Up the Project
